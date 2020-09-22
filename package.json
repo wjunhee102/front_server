@@ -1,0 +1,14 @@
+{
+  "name": "project_server",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "junhee",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
