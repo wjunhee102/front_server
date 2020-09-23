@@ -1,0 +1,81 @@
+{
+  "data": {
+
+    "organization" : [
+      {
+        "type" : "organization",
+        "id": "id1",
+        "name": "test",
+        "parent": {
+          "id" : "id0",
+          "name" : "non-test"
+        },
+        "child": [
+          {
+            "id" : "id2",
+            "name" : "test2"
+          },
+          {
+            "id" : "id3",
+            "name" : "test2"
+          }
+        ],
+        "member" : [
+          "wjunhee102@gmail.com",
+          "wjunhee102@naver.com",
+          "jh.hwang@softwareinlife.com"
+        ]
+      }
+    ],
+    "user" : [
+      {
+        "id" : "user01",
+        "email" : "wjunhee102@gmail.com",
+        "passwort" : "1234",
+        "organization" : [
+          {
+            "name" : "test",
+            "classes" : "manager"
+          },
+          {
+            "name" : "test2",
+            "classes" : "user"
+          }
+        ]
+      }
+    ],
+    "workList" : [
+      {
+        "type" :  "secret",
+        "organization" : [
+          {
+            "name" : "test",
+            "classes" : "manager"
+          },
+          {
+            "name" : "test2",
+            "classes" : "user"
+          }
+        ],
+        "contents" : [
+          {
+            "id" : "1q2w3",
+            "importance" : "important"
+          },
+          {
+            "id" : "UUID2",
+            "importance" : "normal"
+          }
+        ]
+      }
+    ],
+    "imbeded" : {
+      "acessURL" : [
+        "www.wwww.com",
+        "www.cssscs.csc"
+      ]
+    }
+  }
+  
+}
+
